@@ -24,10 +24,11 @@ hs_err_pid*
 
 
 .gradle
+*.properties
 /build/
-
-gradle-app.setting
-
-.gradletasknamecache
-
-!gradle-wrapper.jar
+DependencyInjectionDesign/build/
+!gradle/wrapper/gradle-wrapper.jar
+/.vscode/
+.vscode
+DependencyInjectionDesign/.idea/
+DependencyInjectionDesign/gradle/
