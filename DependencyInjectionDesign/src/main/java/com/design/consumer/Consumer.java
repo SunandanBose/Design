@@ -1,4 +1,6 @@
 package com.design.consumer;
 
-public class Consumer {
+public interface Consumer {
+
+    void processMessages(String message, String receiver);
 }
